@@ -6,10 +6,6 @@
     "devStart": "nodemon server.js",
     "test": "node server.js"
   },
-  "buildpacks": [
-    { "url": "heroku/nodejs" },
-    { "url": "heroku/[server-buildpack]" }
-  ],  
   "keywords": [],
   "author": "",
   "license": "ISC",
