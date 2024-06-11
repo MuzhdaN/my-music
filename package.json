@@ -4,12 +4,7 @@
     "main": "server.js",
     "scripts": {
         "devStart": "node server/server.js",
-        "test": "node server.js",
-        "client:install": "npm install --prefix client",
-        "client:build": "npm run build --prefix client",
-        "client:dev": "npm run dev --prefix client",
-        "client:preview": "npm run preview --prefix client",
-        "heroku-postbuild": "npm run client:install && npm run client:build"
+        "test": "node server.js"
     },
     "keywords": [],
     "author": "",
