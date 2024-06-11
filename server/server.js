@@ -74,9 +74,9 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
 });
 
-app.get("api/v1", (req, res) => {
-  res.send("hello !!!!");
-});
+// app.get("api/v1", (req, res) => {
+//   res.send("hello !!!!");
+// });
 
 // Start the server on port 3001
 // app.listen(3001);
